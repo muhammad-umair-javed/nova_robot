@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="nova_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Include structure -->
+  <xacro:include filename="$(find nova_bot_description)/urdf/nova_robot_base.xacro"/>
+
+  <!-- Include Gazebo plugins -->
+  <xacro:include filename="$(find nova_bot_description)/urdf/nova_robot_gazebo.xacro"/>
+
+</robot>
